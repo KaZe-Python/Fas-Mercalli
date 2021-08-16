@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+<nav class="navbar sticky-top navbar-dark bg-dark navbar-expand-lg">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -8,7 +8,7 @@
                 <a href="#" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Forum</a>
+                <a href="/forum" class="nav-link">Forum</a>
             </li>
             <li class="nav-item" *ngIf="authService.isLoggedIn">
                 <a href="/dashboard" class="nav-link">Dashboard</a>

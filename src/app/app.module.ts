@@ -16,6 +16,10 @@ import { AuthService } from './services/auth.service';
 import { DashboardComponent } from './components/auth/dashboard/dashboard.component';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { PostBrevComponent } from './components/UI/forum/post-brev/post-brev.component';
+import { PostLongComponent } from './components/UI/forum/post-long/post-long.component';
+import { ForumComponent } from './components/forum/forum/forum.component';
+import { ForumPostLongComponent } from './components/forum/forum-post-long/forum-post-long.component';
 
 
 @NgModule({
@@ -28,6 +32,10 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
     InputComponent,
     NavbarComponent,
     DashboardComponent,
+    PostBrevComponent,
+    PostLongComponent,
+    ForumComponent,
+    ForumPostLongComponent,
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebase),
